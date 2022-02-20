@@ -1,0 +1,156 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.credits {
+    color: rgb(62, 154, 154);
+    font-family: 'ALS Hauss';
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: rgba( 0, 61, 133, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 20%;
+padding: 10px;
+
+}
+
+.credits a {
+    text-decoration: none;
+    color: rgb(10, 45, 104);
+}
+
+.credits a:visited {
+    color: rgb(10, 45, 104);
+}
+
+body {
+font-family: 'ALS Hauss';
+background: #E5E5E5;
+}
+
+.header__wrapper {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-logo {
+    font-size: 6vw;
+    font-family: 'Euclid Flex';
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.header-task {
+    width: 700px;    
+    font-size: 150%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header-about {
+    width: 700px;
+    font-size: 150%;
+    text-align: center;
+}
+
+.first__cards img {
+    width: 100%;
+}
+
+.third__block {
+    margin-bottom: 20vh;
+}
+.third__block-wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 150%;
+}
+
+.third__block-right {
+  display: flex;
+  flex-flow:column nowrap;
+  margin-left: 30%;
+  margin-top: 10%;
+
+}
+
+@keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.roulette {
+    width: 100%
+}
+
+.roulette img{
+    width: 400%;
+    animation: 30s linear 0s normal none infinite running rot;
+    position: relative;
+    left: -200%;
+
+}
+.coins {
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.coins img {
+    width: 100%;
+}
+
+.third__block_paragraph {
+    width: 50%;
+
+}
+
+.third__block_paragraph h4 {
+   margin-bottom: 15px;
+}
+
+.third__block_paragraph p {
+    align-items: center;
+}
+
+.belivie__or__not {
+
+}
+
+.belivie__or__not-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.belivie__or__not-parapraph {
+    width: 100%;
+    font-size: 150%;
+}
+
+.belivie__or__not-parapraph p {
+    text-align: justify;
+}
+
+.belivie__or__not-card img {
+    width: 100%;
+}
